@@ -1,0 +1,9 @@
+{
+    "id": "WiFiTelescopeControl",
+    "name": "WiFi Telescope Control",
+    "description": "Allows controlling WiFi-enabled telescopes from Stellarium",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "authorEmail": "your.email@example.com",
+    "license": "GPLv3"
+}

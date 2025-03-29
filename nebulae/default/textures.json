@@ -6,7 +6,7 @@
 	"subTiles" : [
 	{
 		"imageCredits": {"short" : "Stephane Dumont"},
-		"imageUrl" : "m1dumont.png",
+		"imageUrl" : "m1.png",
 		"worldCoords" : [[[83.6970, 21.9454], [83.5510, 21.9559], [83.5621, 22.0906], [83.7082, 22.0803]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.1347774682,
@@ -119,7 +119,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "m15-vasey.png",
+		"imageUrl" : "m15.png",
 		"worldCoords" : [[[322.6612, 11.9656], [322.2728, 12.0068], [322.3147, 12.3865], [322.7035, 12.3453]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -191,7 +191,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "m24-vasey.png",
+		"imageUrl" : "m24.png",
 		"worldCoords" : [[[275.7870, -20.8530], [271.8010, -20.2000], [272.5280, -16.4650], [276.4350, -17.1109]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -215,7 +215,7 @@
 	},
 	{
 		"imageCredits": {"short" : "Stephane Dumont"},
-		"imageUrl" : "m27dumont.png",
+		"imageUrl" : "m27.png",
 		"worldCoords" : [[[-60.0221, 22.6538], [-60.1725, 22.6505], [-60.1762, 22.7890], [-60.0250, 22.7931]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.08346070282,
@@ -303,7 +303,7 @@
 	},
 	{
 		"imageCredits": {"short" : "DSS"},
-		"imageUrl" : "m39-dss.png",
+		"imageUrl" : "m39.png",
 		"worldCoords" : [[[323.4337, 48.1821], [322.6879, 48.1772], [322.6667, 48.6745], [323.4217, 48.6889]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -383,7 +383,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "m51-vasey.png",
+		"imageUrl" : "m51.png",
 		"worldCoords" : [[[202.6985, 47.0004], [202.1500, 47.0807], [202.267, 47.4546], [202.8190, 47.3740]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -431,7 +431,7 @@
 	},
 	{
 		"imageCredits": {"short" : "Stephane Dumont"},
-		"imageUrl" : "m57dumont.png",
+		"imageUrl" : "m57.png",
 		"worldCoords" : [[[-76.5675, 33.0110], [-76.6245, 32.9970], [-76.6411, 33.0455], [-76.5840, 33.0590]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.05315589052,
@@ -439,7 +439,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "m58-vasey.png",
+		"imageUrl" : "m58.png",
 		"worldCoords" : [[[189.6434, 11.7765], [189.3838, 11.5905], [189.1936, 11.8446], [189.4532, 12.0306]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -479,7 +479,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "m63-vasey.png",
+		"imageUrl" : "m63.png",
 		"worldCoords" : [[[199.0209, 41.8650], [198.7240, 41.9983], [198.9032, 42.2193], [199.2014, 42.0856]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -583,7 +583,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "m76-vasey.png",
+		"imageUrl" : "m76.png",
 		"worldCoords" : [[[25.6755, 51.5288], [25.5058, 51.5149], [25.4836, 51.6203], [25.6533, 51.6342]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -631,7 +631,7 @@
 	},
 	{
 		"imageCredits": {"short" : "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "m82-vasey.png",
+		"imageUrl" : "m82.png",
 		"worldCoords" : [[[ 149.3695, 69.5180], [ 148.5644, 69.5024], [ 148.5144, 69.7835], [ 149.3291, 69.7995]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.1904768338,
@@ -727,7 +727,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "m96-vasey.png",
+		"imageUrl" : "m96.png",
 		"worldCoords" : [[[161.8025, 11.7851], [161.6528, 11.7187], [161.5848, 11.8658], [161.7352, 11.9324]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -735,7 +735,7 @@
 	},
 	{
 		"imageCredits": {"short" : "Stephane Dumont"},
-		"imageUrl" : "m97dumont.png",
+		"imageUrl" : "m97.png",
 		"worldCoords" : [[[168.9254, 54.9504], [168.5863, 54.8934], [168.4859, 55.0880], [168.8264, 55.1453]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2028483874,
@@ -767,7 +767,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "m101-vasey.png",
+		"imageUrl" : "m101.png",
 		"worldCoords" : [[[211.4445, 54.0215], [210.2719, 54.0221], [210.2635, 54.7104], [211.4548, 54.7102]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -799,7 +799,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "m105-vasey.png",
+		"imageUrl" : "m105.png",
 		"worldCoords" : [[[162.1947, 12.4491], [161.8926, 12.4335], [161.8765, 12.7284], [162.1788, 12.7439]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -807,7 +807,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "m106-vasey.png",
+		"imageUrl" : "m106.png",
 		"worldCoords" : [[[185.1070, 47.2362], [184.5948, 47.0490], [184.3167, 47.3970], [184.8310, 47.5853]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -919,7 +919,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n246-vasey.png",
+		"imageUrl" : "n246.png",
 		"worldCoords" : [[[11.8563, -11.9868], [11.6514, -11.9645], [11.6742, -11.7638], [11.8790, -11.7860]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -991,7 +991,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n457-vasey.png",
+		"imageUrl" : "n457.png",
 		"worldCoords" : [[[20.1593, 58.0407], [19.4630, 58.1328], [19.6360, 58.5008], [20.3385, 58.4077]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -999,7 +999,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n474-vasey.png",
+		"imageUrl" : "n474.png",
 		"worldCoords" : [[[20.1738, 3.2715], [19.8367, 3.1202], [19.6852, 3.4567], [20.0224, 3.6081]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1007,7 +1007,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n488-vasey.png",
+		"imageUrl" : "n488.png",
 		"worldCoords" : [[[20.7112, 5.0983], [20.329, 5.0885], [20.3193, 5.4695], [20.7019, 5.4790]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1071,7 +1071,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n672-vasey.png",
+		"imageUrl" : "n672.png",
 		"worldCoords" : [[[27.0530, 27.2526], [26.7708, 27.2578], [26.7764, 27.5086], [27.0591, 27.5035]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1079,7 +1079,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n691group-vasey.png",
+		"imageUrl" : "n691group.png",
 		"worldCoords" : [[[27.9195, 21.6087], [27.079, 21.8019], [27.2853, 22.5831], [28.1303,22.3895]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1264,7 +1264,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n1407-dss.png",
+		"imageUrl" : "n1407.png",
 		"worldCoords" : [[[55.1431,-18.7359], [54.6407,-18.7369], [54.6402,-18.2607], [55.1415,-18.2603]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2222381739,
@@ -1312,7 +1312,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n1514-vasey.png",
+		"imageUrl" : "n1514.png",
 		"worldCoords" : [[[62.4254, 30.6939], [62.2300, 30.6825], [62.2167, 30.8507], [62.4124, 30.8619]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1344,7 +1344,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n1549-dss.png",
+		"imageUrl" : "n1549.png",
 		"worldCoords" : [[[64.2998,-55.8651], [63.6929,-55.8655], [63.6929,-55.5245], [64.2971,-55.5235]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2222381739,
@@ -1360,7 +1360,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n1560-dss.png",
+		"imageUrl" : "n1560.png",
 		"worldCoords" :	[[[68.4987,71.7909], [67.911,71.7909], [67.9081,71.9745], [68.5016,71.9745]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -1392,7 +1392,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n1961-vasey.png",
+		"imageUrl" : "n1961.png",
 		"worldCoords" : [[[85.8540, 69.2918], [85.3602, 69.3032], [85.3910, 69.4777], [85.8884, 69.4663]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1472,7 +1472,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n2146-vasey.png",
+		"imageUrl" : "n2146.png",
 		"worldCoords" : [[[95.0339, 78.2924], [94.3075, 78.2883], [94.2830, 78.4357], [95.0170, 78.4397]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1496,7 +1496,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n2174-vasey.png",
+		"imageUrl" : "n2174.png",
 		"worldCoords" : [[[92.89, 20.1352], [92.0294, 20.1245], [92.0157, 20.932], [92.8803, 20.9432]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1552,7 +1552,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"}, 
-		"imageUrl" : "n2298-dss.png",
+		"imageUrl" : "n2298.png",
 		"worldCoords" :	[[[102.3314,-36.0736], [102.1646,-36.0736], [102.1647,-35.9387], [102.3312,-35.9387]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]], 
 		"minResolution" : 0.2222381739, 
@@ -1600,7 +1600,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n2371-vasey.png",
+		"imageUrl" : "n2371.png",
 		"worldCoords" : [[[111.4709, 29.4487], [111.3407, 29.4310], [111.3206, 29.5442], [111.4508, 29.5618]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1608,7 +1608,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n2392-vasey.png",
+		"imageUrl" : "n2392.png",
 		"worldCoords" : [[[ 112.3173, 20.8720], [112.2535, 20.8905], [ 112.2730, 20.9502], [112.3370, 20.9317]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1616,7 +1616,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n2403-vasey.png",
+		"imageUrl" : "n2403.png",
 		"worldCoords" : [[[114.7570, 65.4278], [113.8498, 65.3942], [113.7620, 65.7714], [114.6815, 65.8053]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1672,7 +1672,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n2506-vasey.png",
+		"imageUrl" : "n2506.png",
 		"worldCoords" : [[[120.2141, -10.9789], [119.8248, -10.9840], [119.8199, -10.6010], [120.2090, -10.5960]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1680,7 +1680,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n2516-dss.png",
+		"imageUrl" : "n2516.png",
 		"worldCoords" :	[[[120.0515,-61.0135], [119.0246,-61.0071], [119.0442,-60.5092], [120.0562,-60.5146]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2222381739,
@@ -1712,7 +1712,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n2655-vasey.png",
+		"imageUrl" : "n2655.png",
 		"worldCoords" : [[[134.740, 78.085], [133.219, 78.0580], [133.065, 78.3715], [134.625, 78.3992]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1728,7 +1728,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n2685-vasey.png",
+		"imageUrl" : "n2685.png",
 		"worldCoords" : [[[134.0885, 58.6557], [133.7550, 58.6415], [133.7267, 58.8148], [134.0620, 58.8293]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1776,7 +1776,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n2805-vasey.png",
+		"imageUrl" : "n2805.png",
 		"worldCoords" : [[[140.5227, 64.0223], [139.9028, 64.0286], [139.9154, 64.2998], [140.5391, 64.2935]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1800,7 +1800,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n2841-vasey.png",
+		"imageUrl" : "n2841.png",
 		"worldCoords" : [[[140.7937, 50.9407], [140.4467, 50.7977], [140.2193, 51.0163], [140.5669, 51.1595]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1872,7 +1872,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n3079-vasey.png",
+		"imageUrl" : "n3079.png",
 		"worldCoords" : [[[150.6245, 55.4968], [150.1842, 55.5940], [150.356, 55.8432], [150.7985, 55.7455]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -1912,7 +1912,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n3166-vasey.png",
+		"imageUrl" : "n3166.png",
 		"worldCoords" : [[[153.6123, 3.1958], [153.2570, 3.3285], [153.3898, 3.6841], [153.7455, 3.5511]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -2000,7 +2000,7 @@
 	},
 	{
 		"imageCredits": {"short" : "Plover Hill Observatory", "infoUrl":"http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n3310-vasey.png",
+		"imageUrl" : "n3310.png",
 		"worldCoords" : [[[ 159.8500, 53.4258], [ 159.5574, 53.4257], [159.5570,53.6003], [ 159.8508, 53.6003]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.1904768338,
@@ -2016,7 +2016,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n3344-vasey.png",
+		"imageUrl" : "n3344.png",
 		"worldCoords" : [[[160.9822, 24.8379], [160.7791, 24.8257], [160.7656, 25.0099], [160.9687, 25.0221]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -2024,7 +2024,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n3359-vasey.png",
+		"imageUrl" : "n3359.png",
 		"worldCoords" : [[[161.8615, 63.0730], [161.3060, 63.1260], [161.4230, 63.3771], [161.9806, 63.3232]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -2048,7 +2048,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n3504-vasey.png",
+		"imageUrl" : "n3504.png",
 		"worldCoords" : [[[165.9352, 27.8449], [165.7118, 27.9634], [165.8461, 28.1611], [166.0699, 28.0421]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -2056,7 +2056,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n3521-vasey.png",
+		"imageUrl" : "n3521.png",
 		"worldCoords" : [[[166.5840, -0.1393], [166.3412, -0.1797], [166.3012, 0.0635], [166.5439, 0.1035]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -2208,7 +2208,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n3923-dss.png",
+		"imageUrl" : "n3923.png",
 		"worldCoords" : [[[177.9001,-28.9246], [177.6079,-28.9246], [177.6075,-28.6697], [177.8985,-28.6697]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -2216,7 +2216,7 @@
 	},
 	{
 		"imageCredits": {"short" : "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n3938-vasey.png",
+		"imageUrl" : "n3938.png",
 		"worldCoords" : [[[ 178.3847, 44.1207], [ 178.2195, 43.9937], [ 178.0429, 44.1120], [ 178.2080, 44.2392]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.1904768338,
@@ -2256,7 +2256,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n4151-vasey.png",
+		"imageUrl" : "n4151.png",
 		"worldCoords" : [[[182.8834, 39.2280], [182.4358, 39.1979], [182.3954, 39.5445], [182.8450, 39.5750]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -2312,7 +2312,7 @@
 	},
 	{
 		"imageCredits": {"short" : "DSS"},
-		"imageUrl" : "n4274-dss.png",
+		"imageUrl" : "n4274.png",
 		"worldCoords" :	[[[185.3546,29.0573], [184.2694,29.4925], [184.7695,30.4401], [185.8628,30.0008]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2206731001,
@@ -2352,7 +2352,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n4394-dss.png",
+		"imageUrl" : "n4394.png",
 		"worldCoords" : [[[186.5133,18.0789], [186.2602,18.0789], [186.2602,18.3189], [186.5133,18.3189]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2222381739,
@@ -2432,7 +2432,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n4535-vasey.png",
+		"imageUrl" : "n4535.png",
 		"worldCoords" : [[[188.7287, 8.0282], [188.4114, 8.0570], [188.4404, 8.3710], [188.7578, 8.3422]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -2440,7 +2440,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n4559-vasey.png",
+		"imageUrl" : "n4559.png",
 		"worldCoords" : [[[189.1615, 27.8347], [188.8610, 27.8108], [188.8336, 28.0765], [189.1348, 28.1005]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -2464,7 +2464,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n4631-vasey.png",
+		"imageUrl" : "n4631.png",
 		"worldCoords" : [[[ 190.7039, 32.2708], [ 190.2312, 32.3993], [ 190.3830, 32.7985], [190.8574, 32.6694]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" :  0.2169148018,
@@ -2488,7 +2488,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n4656-vasey.png",
+		"imageUrl" : "n4656.png",
 		"worldCoords" : [[[ 191.1550, 31.9585], [ 190.6848, 32.0886], [ 190.8382, 32.4875], [191.3100, 32.3570]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -2600,7 +2600,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n5033-vasey.png",
+		"imageUrl" : "n5033.png",
 		"worldCoords" : [[[198.5619, 36.4878], [198.2353, 36.4536], [198.1924, 36.7165], [198.5203, 36.7504]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -2704,7 +2704,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n5363-vasey.png",
+		"imageUrl" : "n5363.png",
 		"worldCoords" : [[[209.262, 5.018], [208.7842, 4.86], [208.625, 5.336], [209.1034, 5.4942]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -2768,7 +2768,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n5634-dss.png",
+		"imageUrl" : "n5634.png",
 		"worldCoords" :	[[[217.4671,-6.0371], [217.3454,-6.0375], [217.3444,-5.9165], [217.4663,-5.9158]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -2776,7 +2776,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n5694-dss.png",
+		"imageUrl" : "n5694.png",
 		"worldCoords" : [[[219.9307,-26.5663], [219.8713,-26.5663], [219.8713,-26.5131], [219.9307,-26.5131]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2165786418,
@@ -2792,7 +2792,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n5824-dss.png",
+		"imageUrl" : "n5824.png",
 		"worldCoords" :	[[[226.0648,-33.1296], [225.9205,-33.1275], [225.9231,-33.0067], [226.0672,-33.0088]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -2832,7 +2832,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n5927-dss.png",
+		"imageUrl" : "n5927.png",
 		"worldCoords" : [[[232.1486,-50.7631], [231.8635,-50.7631], [231.8651,-50.5826], [232.1491,-50.5827]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -2856,7 +2856,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"}, 
-		"imageUrl" : "n5986-dss.png",
+		"imageUrl" : "n5986.png",
 		"worldCoords" : [[[236.6299,-37.8785], [236.4011,-37.8782], [236.4016,-37.6977], [236.6294,-37.6982]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]], 
 		"minResolution" : 0.2165786418, 
@@ -2912,7 +2912,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"}, 
-		"imageUrl" : "n6139-dss.png",
+		"imageUrl" : "n6139.png",
 		"worldCoords" :	[[[247.0613,-38.946], [246.7942,-38.9619], [246.7742,-38.7541], [247.04068,-38.7383]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]], 
 		"minResolution" : 0.2222381739, 
@@ -2960,7 +2960,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n6235-dss.png",
+		"imageUrl" : "n6235.png",
 		"worldCoords" : [[[253.4278,-22.2431], [253.2882,-22.2431], [253.2882,-22.1137], [253.4278,-22.1137]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -2976,7 +2976,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n6284-dss.png",
+		"imageUrl" : "n6284.png",
 		"worldCoords" : [[[256.1926,-24.835], [256.0501,-24.8346], [256.0504,-24.7054], [256.1928,-24.7056]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -2984,7 +2984,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"}, 
-		"imageUrl" : "n6287-dss.png",
+		"imageUrl" : "n6287.png",
 		"worldCoords" :	[[[256.335,-22.7489], [256.2446,-22.7505], [256.243,-22.6672], [256.3333,-22.6656]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]], 
 		"minResolution" : 0.2222381739, 
@@ -3312,7 +3312,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n6624-dss.png",
+		"imageUrl" : "n6624.png",
 		"worldCoords" : [[[275.9918,-30.423], [275.8472,-30.423], [275.8472,-30.2982], [275.9918,-30.2982]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -3472,7 +3472,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n6868-dss.png",
+		"imageUrl" : "n6868.png",
 		"worldCoords" :	[[[302.549,-48.4258], [302.4061,-48.4281], [302.4028,-48.3333], [302.5454,-48.331]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -3544,7 +3544,7 @@
 	},
 	{
 		"imageCredits": {"short" : "Stephane Dumont"},
-		"imageUrl" : "n6946dumont.png",
+		"imageUrl" : "n6946.png",
 		"worldCoords" : [[[-51.2027, 60.0140], [-51.5591, 60.1122], [-51.3620, 60.2901], [-51.0043, 60.1915]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2033826363,
@@ -3585,7 +3585,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n7008-vasey.png",
+		"imageUrl" : "n7008.png",
 		"worldCoords" : [[[315.2091, 54.4930], [315.0591, 54.4981], [315.0681, 54.5851], [315.2180, 54.5798]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -3665,7 +3665,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n7331-vasey.png",
+		"imageUrl" : "n7331.png",
 		"worldCoords" : [[[ 339.4710,  34.3034], [ 339.1892, 34.2907], [ 339.1729, 34.5239], [339.4557, 34.5367]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -3689,7 +3689,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "n7424-dss.png",
+		"imageUrl" : "n7424.png",
 		"worldCoords" : [[[344.4314,-41.156], [344.2066,-41.156], [344.2066,-40.9866], [344.4314,-40.9866]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -3697,7 +3697,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n7479-vasey.png",
+		"imageUrl" : "n7479.png",
 		"worldCoords" : [[[346.3032, 12.2568], [346.1628, 12.2614], [346.1675, 12.3985], [346.3078, 12.3940]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -3753,7 +3753,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl":"http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n7640-vasey.png",
+		"imageUrl" : "n7640.png",
 		"worldCoords" : [[[350.7508, 40.6883], [350.3352, 40.6792], [350.3225, 40.9944], [350.7396, 41.0034]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -3793,7 +3793,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "n7789-vasey.png",
+		"imageUrl" : "n7789.png",
 		"worldCoords" : [[[359.9722, 56.2820], [358.5384, 56.3717], [358.6888, 57.1685], [0.1541, 57.0758]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -4081,7 +4081,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "ic4499-dss.png",
+		"imageUrl" : "ic4499.png",
 		"worldCoords" : [[[225.7037,-82.3054], [224.3949,-82.304], [224.4206,-82.1291], [225.7002,-82.1309]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -4410,7 +4410,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "barnard142-vasey.png",
+		"imageUrl" : "barnard142.png",
 		"worldCoords" : [[[296.2262, 10.0768], [294.4420, 9.8665], [294.2220, 11.6242], [296.0163, 11.8358]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -4426,7 +4426,7 @@
 	},
 	{
 		"imageCredits" : {"Short": "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "barnard173-vasey.png",
+		"imageUrl" : "barnard173.png",
 		"worldCoords" : [[[332.8830, 58.6930], [330.8450, 58.7990], [331.0210, 59.8585], [333.1240, 59.7500]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -4498,7 +4498,7 @@
 	},	
 	{
 		"imageCredits": {"short" : "Plover Hill Observatory", "infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "sh2-101-vasey.png",
+		"imageUrl" : "sh2-101.png",
 		"worldCoords" : [[[ 300.3250, 34.9860], [ 299.5908, 34.9979], [ 299.6025, 35.5995], [ 300.3420, 35.5878]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.1904768338,
@@ -4586,7 +4586,7 @@
 	},
 	{
 		"imageCredits" : {"short" : "DSS"},
-		"imageUrl" : "sh2-140-dss.png",
+		"imageUrl" : "sh2-140.png",
 		"worldCoords" :	[[[335.2446, 62.8431],[333.7899,62.8494],[333.7858,63.5131],[335.2745,63.5067]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.266023154,
@@ -4634,7 +4634,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "sh2-188-vasey.png",
+		"imageUrl" : "sh2-188.png",
 		"worldCoords" : [[[22.9147, 58.3008], [22.2735, 58.2826], [22.2383, 58.6184], [22.8801, 58.6366]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -5260,7 +5260,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "GammaCygni-vasey.png",
+		"imageUrl" : "GammaCygni.png",
 		"worldCoords" : [[[307.4900, 38.3650], [303.1000, 38.5280], [303.2100, 41.9600], [307.8150, 41.7900]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -5268,7 +5268,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "Jones-Emberson1-vasey.png",
+		"imageUrl" : "Jones-Emberson1.png",
 		"worldCoords" : [[[119.7535, 53.2732], [119.2035, 53.2580], [119.1770, 53.5870], [119.7305, 53.6015]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -5276,7 +5276,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "Medusa-vasey.png",
+		"imageUrl" : "Medusa.png",
 		"worldCoords" : [[[112.4025, 13.0949], [112.0710, 13.1070], [112.0834, 13.4296], [112.4150, 13.4175]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
@@ -5300,7 +5300,7 @@
 	},
 	{
 		"imageCredits" : {"Short":"Plover Hill Observatory","infoUrl": "http://www.madpc.co.uk/~peterv/"},
-		"imageUrl" : "darkshark-vasey.png",
+		"imageUrl" : "darkshark.png",
 		"worldCoords" : [[[334.852, 71.802], [327.151, 71.745], [326.376, 74.142], [335.205, 74.208]]],
 		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
 		"minResolution" : 0.2169148018,
