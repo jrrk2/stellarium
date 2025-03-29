@@ -18,21 +18,22 @@ public:
 protected:
     void createDialogContent() override;
     
+    // Implement the required retranslate method from StelDialog
+    void retranslate() override;
+
 private slots:
     void connectToTelescope();
-    void disconnectTelescope();
     void gotoSelectedObject();
     void startObservation();
     void stopObservation();
     void parkTelescope();
-    void updateConnectionStatus(bool connected);
-    void updateTelescopeStatus(const QString& status);
+    void focusTelescope();
+    void updateConnectionStatus();
     
 private:
-    std::unique_ptr<Ui_WiFiTelescopeControlDialogForm> ui;
+    Ui_WiFiTelescopeControlDialogForm* ui;
     WiFiTelescope* telescope;
     
-    void setupConnections();
     void updateUI();
 };
 

@@ -1,3 +1,4 @@
+// In WiFiTelescopeControl.hpp
 #ifndef WIFITELESCOPECONTROL_HPP
 #define WIFITELESCOPECONTROL_HPP
 
@@ -28,6 +29,9 @@ public:
     // StelPluginInterface methods
     virtual bool configureGui(bool show) override;
     virtual StelPluginInfo getPluginInfo() const override;
+    
+    // Required implementation of pure virtual method
+    virtual StelModule* getStelModule() const override { return const_cast<WiFiTelescopeControl*>(this); }
 
 public slots:
     void slotControlTelescopeFromGui();

@@ -5,6 +5,7 @@
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QString>
+#include <QTimer>
 
 class WiFiTelescope : public QObject
 {
@@ -12,7 +13,7 @@ class WiFiTelescope : public QObject
 
 public:
     WiFiTelescope(QObject* parent = nullptr);
-    ~WiFiTelescope();
+    virtual ~WiFiTelescope();
 
     bool connect(const QString& ipAddress, int port = 8082);
     void disconnect();
@@ -36,7 +37,7 @@ public:
     QString getTargetName() const;
 
 signals:
-    void connected();
+    void connectionEstablished();  // Renamed from 'connected' to avoid conflict
     void disconnected();
     void connectionError(const QString& errorMessage);
     void statusUpdated(const QString& status);
@@ -50,7 +51,7 @@ private:
     QNetworkAccessManager* networkManager;
     QString serverAddress;
     int serverPort;
-    bool connected;
+    bool isConnectedFlag;  // Renamed from 'connected' to avoid conflict
     
     // Telescope state
     QString currentStatus;

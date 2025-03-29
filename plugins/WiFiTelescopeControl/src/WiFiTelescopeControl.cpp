@@ -1,172 +1,126 @@
+#include "WiFiTelescopeControl.hpp"
 #include "WiFiTelescope.hpp"
-#include <QJsonDocument>
-#include <QJsonObject>
-#include <QJsonArray>
-#include <QUrlQuery>
-#include <QTimer>
-#include <QDebug>
+#include "WiFiTelescopeControlDialog.hpp"
 
-WiFiTelescope::WiFiTelescope(QObject* parent)
-    : QObject(parent)
-    , networkManager(new QNetworkAccessManager(this))
-    , serverPort(8082)
-    , connected(false)
-    , currentRa(0.0)
-    , currentDec(0.0)
-    , currentAlt(0.0)
-    , currentAz(0.0)
+#include "StelApp.hpp"
+#include "StelLocaleMgr.hpp"
+#include "StelModule.hpp"
+#include "StelModuleMgr.hpp"
+#include "StelObjectMgr.hpp"
+#include "StelGui.hpp"
+#include "StelGuiItems.hpp"
+#include "StelTranslator.hpp"
+
+WiFiTelescopeControl::WiFiTelescopeControl()
+    : configDialog(nullptr)
+    , toolbarButton(nullptr)
+    , telescope(nullptr)
 {
-    // Set up a timer for periodic status updates
-    QTimer* statusTimer = new QTimer(this);
-    connect(statusTimer, &QTimer::timeout, this, &WiFiTelescope::processStatusUpdate);
-    statusTimer->start(2000); // Update every 2 seconds
-    
-    // Connect signals for network replies
-    connect(networkManager, &QNetworkAccessManager::finished,
-            this, &WiFiTelescope::handleNetworkReply);
+    setObjectName("WiFiTelescopeControl");
 }
 
-WiFiTelescope::~WiFiTelescope()
+WiFiTelescopeControl::~WiFiTelescopeControl()
 {
-    disconnect();
+    delete telescope;
 }
 
-bool WiFiTelescope::connect(const QString& ipAddress, int port)
+void WiFiTelescopeControl::init()
 {
-    // Store connection parameters
-    serverAddress = ipAddress;
-    serverPort = port;
+    telescope = new WiFiTelescope(this);
     
-    // For this skeleton, we'll simulate a successful connection
-    qDebug() << "Connecting to telescope at" << ipAddress << ":" << port;
+    // Setup GUI
+    setupToolbarButton();
     
-    // In a real implementation, you would:
-    // 1. Validate the connection by sending a test request
-    // 2. Obtain authentication tokens
-    // 3. Set up initial state
-    
-    // Simulate connection delay
-    QTimer::singleShot(1000, [this]() {
-        connected = true;
-        authToken = "dummy_auth_token";
-        emit connected();
-        qDebug() << "Connected to telescope!";
-        
-        // Simulate initial status
-        currentStatus = "Ready";
-        emit statusUpdated(currentStatus);
-    });
-    
-    return true;
+    // Connect to StelObjectMgr signals for object selection
+    StelObjectMgr* objMgr = GETSTELMODULE(StelObjectMgr);
+    connect(objMgr, SIGNAL(selectedObjectChanged(StelModule::StelModuleSelectAction)),
+            this, SLOT(slotObjectSelected(StelModule::StelModuleSelectAction)));
 }
 
-void WiFiTelescope::disconnect()
+void WiFiTelescopeControl::deinit()
 {
-    if (connected) {
-        // Perform any cleanup needed
-        connected = false;
-        emit disconnected();
+    // Cleanup if needed
+}
+
+void WiFiTelescopeControl::update(double deltaTime)
+{
+  (void)deltaTime;
+    // Any periodic updates
+}
+
+void WiFiTelescopeControl::draw(StelCore* core)
+{
+  (void)core;
+    // Any custom drawing
+}
+
+double WiFiTelescopeControl::getCallOrder(StelModuleActionName actionName) const
+{
+  (void)actionName;
+    // Default value that works for most plugins
+    return 0;
+}
+
+bool WiFiTelescopeControl::configureGui(bool show)
+{
+    if (show)
+    {
+        // Create dialog if it doesn't exist
+        if (!configDialog)
+        {
+            configDialog = new WiFiTelescopeControlDialog(telescope);
+        }
+        configDialog->setVisible(true);
+        return true;
+    }
+    
+    if (configDialog)
+    {
+        configDialog->setVisible(false);
+        return true;
+    }
+    
+    return false;
+}
+
+StelPluginInfo WiFiTelescopeControl::getPluginInfo() const
+{
+    StelPluginInfo info;
+    info.id = "WiFiTelescopeControl";
+    info.displayedName = q_("WiFi Telescope Control");
+    info.authors = "Your Name";
+    info.contact = "your.email@example.com";
+    info.description = q_("Control WiFi-enabled telescopes from Stellarium");
+    info.version = "1.0.0";
+    
+    return info;
+}
+
+void WiFiTelescopeControl::setupToolbarButton()
+{
+    // Add a toolbar button
+    StelGui* gui = dynamic_cast<StelGui*>(StelApp::getInstance().getGui());
+    if (gui)
+    {
+        toolbarButton = new StelButton(nullptr, 
+                                      QPixmap(":/WiFiTelescopeControl/telescope.png"), 
+                                      QPixmap(":/WiFiTelescopeControl/telescope_on.png"), 
+                                      QPixmap(":/WiFiTelescopeControl/telescope_hover.png"), 
+                                      "actionShow_WiFiTelescopeControl");
+        gui->getButtonBar()->addButton(toolbarButton, "065-pluginsGroup");
+        connect(toolbarButton, SIGNAL(triggered()), this, SLOT(slotControlTelescopeFromGui()));
     }
 }
 
-bool WiFiTelescope::isConnected() const
+void WiFiTelescopeControl::slotControlTelescopeFromGui()
 {
-    return connected;
+    configureGui(!configDialog || !configDialog->visible());
 }
 
-bool WiFiTelescope::gotoCoordinates(double ra, double dec, const QString& objectName)
+void WiFiTelescopeControl::slotGotoTarget(double ra, double dec, const QString& objectName)
 {
-    if (!connected) {
-        qWarning() << "Cannot goto: not connected to telescope";
-        return false;
-    }
-    
-    qDebug() << "GOTO command: RA =" << ra << "DEC =" << dec << "Object:" << objectName;
-    
-    // Calculate Alt/Az from RA/Dec (this would use Stellarium's conversions in real implementation)
-    // For this skeleton, we'll just use dummy values
-    currentRa = ra;
-    currentDec = dec;
-    currentAlt = 45.0; // Dummy value
-    currentAz = 180.0; // Dummy value
-    currentTarget = objectName;
-    
-    // In a real implementation, send the command to the telescope
-    QJsonObject payload;
-    payload["ALT"] = currentAlt;
-    payload["AZ"] = currentAz;
-    
-    // Simulate the network request and response
-    QTimer::singleShot(1500, [this]() {
-        currentStatus = "Slewing to target";
-        emit statusUpdated(currentStatus);
-        emit coordinatesUpdated(currentRa, currentDec, currentAlt, currentAz);
-        
-        // Simulate arrival at target after a delay
-        QTimer::singleShot(3000, [this]() {
-            currentStatus = "Tracking target";
-            emit statusUpdated(currentStatus);
-        });
-    });
-    
-    return true;
-}
-
-// Include similar implementations for other telescope functions:
-// takeControl(), startObservation(), stopObservation(), etc.
-
-// Helper methods for HTTP requests
-QNetworkRequest WiFiTelescope::createRequest(const QString& endpoint)
-{
-    QString url = QString("http://%1:%2%3").arg(serverAddress).arg(serverPort).arg(endpoint);
-    QNetworkRequest request(url);
-    request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
-    
-    if (!authToken.isEmpty()) {
-        addAuthenticationHeaders(request);
-    }
-    
-    return request;
-}
-
-void WiFiTelescope::addAuthenticationHeaders(QNetworkRequest& request)
-{
-    // Add authentication headers
-    request.setRawHeader("Authorization", authToken.toUtf8());
-}
-
-bool WiFiTelescope::sendCommand(const QString& endpoint, const QJsonObject& payload)
-{
-    if (!connected) {
-        return false;
-    }
-    
-    QNetworkRequest request = createRequest(endpoint);
-    QJsonDocument doc(payload);
-    QByteArray data = doc.toJson();
-    
-    networkManager->post(request, data);
-    return true;
-}
-
-void WiFiTelescope::handleNetworkReply()
-{
-    // This would process actual network replies
-    // For the skeleton, this is left empty as we simulate responses
-}
-
-void WiFiTelescope::processStatusUpdate()
-{
-    // In a real implementation, this would poll the telescope for status
-    // For the skeleton, we just update the UI with the current state
-    if (connected) {
-        emit statusUpdated(currentStatus);
-        emit coordinatesUpdated(currentRa, currentDec, currentAlt, currentAz);
+    if (telescope && telescope->isConnected())
+    {
+        telescope->gotoCoordinates(ra, dec, objectName);
     }
 }
-
-// Add getters
-QString WiFiTelescope::getStatus() const { return currentStatus; }
-double WiFiTelescope::getAltitude() const { return currentAlt; }
-double WiFiTelescope::getAzimuth() const { return currentAz; }
-QString WiFiTelescope::getTargetName() const { return currentTarget; }

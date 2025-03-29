@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/WiFiTelescopeControl">
+    <file>WiFiTelescopeControl.json</file>
+    <file>telescope.png</file>
+  </qresource>
+</RCC>

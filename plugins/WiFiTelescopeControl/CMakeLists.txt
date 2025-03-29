@@ -1,20 +1,7 @@
-SET(WIFITELESCOPE_MODULE_NAME "WiFiTelescopeControl")
+# This is the cmake config file for the WiFi Telescope Control plugin
+SET(WIFITELESCOPE_VERSION "${VERSION}")
+ADD_DEFINITIONS(-DWIFITELESCOPE_PLUGIN_VERSION="${WIFITELESCOPE_VERSION}")
+ADD_DEFINITIONS(-DWIFITELESCOPE_PLUGIN_LICENSE="GNU GPLv2 or later")
 
-ADD_DEFINITIONS(-DWIFITELESCOPE_PLUGIN_VERSION="${STELLARIUM_VERSION}")
-
-ADD_STELLARIUM_PLUGIN(${WIFITELESCOPE_MODULE_NAME} src/WiFiTelescopeControl.hpp
-                                                  src/WiFiTelescopeControl.cpp
-                                                  src/WiFiTelescopeControlDialog.hpp
-                                                  src/WiFiTelescopeControlDialog.cpp
-                                                  src/WiFiTelescope.hpp
-                                                  src/WiFiTelescope.cpp
-                                                  src/gui/WiFiTelescopeControlDialog.ui
-)
-
-SET_TARGET_PROPERTIES(${WIFITELESCOPE_MODULE_NAME} PROPERTIES FOLDER "plugins/${WIFITELESCOPE_MODULE_NAME}")
-
-TARGET_INCLUDE_DIRECTORIES(${WIFITELESCOPE_MODULE_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
-
-# Activate Qt resources for this plugin
-QT5_ADD_RESOURCES(WIFITELESCOPE_RES resources/WiFiTelescopeControl.qrc)
-TARGET_SOURCES(${WIFITELESCOPE_MODULE_NAME} PRIVATE ${WIFITELESCOPE_RES})
+# Add the src subdirectory where the actual build logic resides
+ADD_SUBDIRECTORY(src)
